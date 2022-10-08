@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+#btn{
+  width: 30vw;
+  background-color: aqua;
+}
+.score{
+   display: flex;
+   height: 200px;
+   width: 200px;
+   justify-content: space-around;
+   justify-items: flex-start; 
+}
+nav ul
+{
+  list-style-type: none;
+}
+
+.gamecontainer
+{ padding-top: 50px;
+  display: flex;
+  height: 100px;
+  color: red;
+  justify-content: center;
+}
+
+.container
+{
+   display: grid;
+   grid-template-columns: repeat(3,10vw);
+   grid-template-rows: repeat(3,10vw);
+}
+
+.container div
+{
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  font-size: 9vmax;
+}
+
+nav
+{
+  background-color: rgb(191, 29, 169);
+  color: white;
+  height: 75px;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 15px;
+  font-family: 'Montserrat', sans-serif;
+}
